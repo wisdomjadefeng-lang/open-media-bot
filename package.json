@@ -1,0 +1,15 @@
+{
+  "name": "open-media-bot",
+  "version": "1.0.0",
+  "description": "Open Media \u4f01\u5fae\u667a\u80fd\u5ba2\u670d - Coze API \u6865\u63a5\u670d\u52a1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api.js && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "xml2js": "^0.6.2",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
